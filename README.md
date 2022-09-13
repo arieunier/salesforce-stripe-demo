@@ -10,3 +10,5 @@ Note: only supports one time payment and one order item.
 If willing to use subscription update the StripeApiHandler.createCheckoutSesssion : change mode to subscription, remove the payment intent data part
 If willing to have multi products order, iterate over the order products  (StripeBillingConnector.handleOrderUpdate) and pass a list to the StripeAPIHandler.createCheckoutSession
 
+# Architecture diagram
+![](architecture.png)
