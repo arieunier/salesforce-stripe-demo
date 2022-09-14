@@ -62,6 +62,7 @@ public with sharing class StripeApiHandler {
         + '&line_items[0]quantity=' + EncodingUtil.urlEncode('1', 'UTF-8') 
         + '&mode=' + EncodingUtil.urlEncode('payment', 'UTF-8') 
         + '&payment_method_types[0]=' + EncodingUtil.urlEncode('card', 'UTF-8') 
+        + '&payment_method_types[1]=' + EncodingUtil.urlEncode('sepa_debit', 'UTF-8') 
         + '&customer=' + EncodingUtil.urlEncode(stripeCustomerId, 'UTF-8') 
         + '&metadata[SalesforceOrderId]=' + EncodingUtil.urlEncode(SalesforceOrderId, 'UTF-8')
         + '&payment_intent_data[metadata][SalesforceOrderId]=' + EncodingUtil.urlEncode(SalesforceOrderId, 'UTF-8');
