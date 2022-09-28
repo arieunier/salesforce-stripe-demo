@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isStripeUser__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>if ticked will replicate the user to Stripe</description>
+    <externalId>false</externalId>
+    <label>Is a Stripe Customer</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

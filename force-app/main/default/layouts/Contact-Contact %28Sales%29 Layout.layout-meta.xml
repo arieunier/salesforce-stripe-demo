@@ -49,6 +49,10 @@
                 <behavior>Readonly</behavior>
                 <field>StripeURL__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>isStripeUser__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
